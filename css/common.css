@@ -38,7 +38,61 @@
     text-indent: -999px;
     font-size: 0;
 }
-
+/* nav部分 */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 76px;
+    background-color: rgba(0, 0, 0, .6);
+}
+header nav .w {
+    position: relative;
+    color: #fff;
+}
+nav .tel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 940px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 14px;
+}
+nav .w .an-nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    height: 46px;
+}
+nav .an-nav>li {
+    overflow: hidden;
+    float: left;
+    /* 对hover的长度auto过渡不会起效 所以采用最小和最大长度来实现自动效果*/
+    min-height: 46px;
+    max-height: 46px;
+    transition: all 1.5s linear;
+}
+nav .an-nav>li:hover {
+    max-height: 500px;
+}
+nav ul a {
+    display: block;
+    width: 94px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+nav ul .sub {
+    background-color: rgba(0, 0, 0, .6);
+}
+nav ul .sub li a {
+    height: 30px;
+    line-height: 30px;
+}
 
 .footer {
     height: 386px;
