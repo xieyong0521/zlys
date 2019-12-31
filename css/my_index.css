@@ -1,0 +1,747 @@
+/* 声明字体样式 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot') format('embedded-opentype'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 头部样式开始 */
+
+.header {
+    width: 100%;
+    height: 76px;
+    background-color: #000;
+}
+
+
+/* 头部样式结束 */
+
+
+/* 轮播图开始 */
+
+.slideshow {
+    width: 100%;
+    height: auto;
+}
+
+.circle-l {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border: 1px dotted #ccc;
+    border-radius: 50%;
+    transition: all .5s;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.circle-r {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border: 1px dotted #ccc;
+    border-radius: 50%;
+    transition: all .5s;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.circle-l:hover {
+    border: 3px dotted white;
+    width: 70px;
+    height: 70px;
+    /* transform: translateX(-10px); */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle-r:hover {
+    border: 3px dotted white;
+    width: 70px;
+    height: 70px;
+    /* transform: translateX(10px); */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cl-slide {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 100px;
+    border: 1px solid #ccc;
+    transition: all .5s;
+    border-bottom: none;
+    outline: none;
+}
+
+.circle-l:hover .cl-slide {
+    border: 1px solid white;
+    transform: translateX(-10px);
+    width: 40px;
+}
+
+.cl-slide::after,
+.cr-slide::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+}
+
+.cl-slide::after {
+    top: -5px;
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+}
+
+.circle-r:hover .cr-slide {
+    border: 1px solid white;
+    transform: translateX(10px);
+    width: 40px;
+}
+
+.cr-slide {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    width: 100px;
+    border: 1px solid #ccc;
+    transition: all .5s;
+    border-bottom: none;
+}
+
+.cr-slide::after {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-left: none;
+}
+
+.focus {
+    overflow: hidden;
+    position: relative;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #8E8989;
+    transition: all .3;
+}
+
+.focus ul li a {
+    display: block;
+}
+
+.focus ul li a {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 600px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.focus ul li a span {
+    transition: all .5s;
+}
+
+.focus ul li {
+    float: left;
+    box-sizing: border-box;
+    width: 1300px;
+    height: 600px;
+    transition: all .5s;
+}
+
+.focus ul {
+    position: absolute;
+    width: 600%;
+}
+
+.focus ul li:nth-child(1) a {
+    background: url('../my_images/3.jpg') no-repeat;
+    background-size: 1300px 600px;
+    background-position: center;
+}
+
+.focus ul li:nth-child(2) a {
+    background: url('../my_images/2.jpg') no-repeat;
+    background-size: 1300px 600px;
+    background-position: center;
+}
+
+.focus ul li:nth-child(3) a {
+    background: url('../my_images/1.jpg') no-repeat;
+    background-size: 1300px 600px;
+    background-position: center;
+}
+
+.focus ul li:nth-child(4) a {
+    background: url('../my_images/4.jpg') no-repeat;
+    background-size: 1300px 600px;
+    background-position: center;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.btn2 {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    height: 100px;
+    width: 100px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+
+/* 轮播图结束 */
+
+
+/* 品牌文化开始 */
+
+.brandCulture {
+    overflow: hidden;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    padding: 33px 0 40px 0;
+    margin-bottom: 40px;
+    color: #000;
+    height: auto;
+    background: url(../../zlys/my_images/title.png) no-repeat bottom center;
+}
+
+.title h2 {
+    font-size: 30px;
+    color: block;
+    font-weight: bold;
+}
+
+.title p {
+    padding: 10px 0;
+}
+
+.brc_left {
+    overflow: hidden;
+    width: 375px;
+    height: 270px;
+    border: 4px solid white;
+    float: left;
+}
+
+.brc_right {
+    width: 660px;
+    height: auto;
+    line-height: 28px;
+    float: left;
+    margin-left: 37px;
+    color: #000;
+    background: url(../../zlys/my_images/cur_bg.jpg) no-repeat center bottom;
+}
+
+.brc_right a {
+    color: red;
+}
+
+
+/* 品牌文化结束 */
+
+
+/* 加盟开始 */
+
+.join {
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.join_title {
+    text-align: center;
+    padding: 33px 0 40px 0;
+    margin-bottom: 40px;
+    height: auto;
+    color: #000;
+    background: url(../../zlys/my_images/title.png) no-repeat bottom center;
+}
+
+.join_title h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.join_title p {
+    padding: 10px 0;
+}
+
+.join_process li {
+    float: left;
+    width: 289px;
+    height: auto;
+}
+
+.jp_img {
+    overflow: hidden;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.join_process li a {
+    display: block;
+    text-align: center;
+}
+
+.join_process h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding: 10px 0;
+}
+
+.join_process li {
+    float: left;
+    padding: 15px 24px;
+    box-sizing: border-box;
+}
+
+
+/* 加盟结束 */
+
+
+/* 地址开始 */
+
+.adress_body {
+    width: 100%;
+}
+
+.adress {
+    overflow: hidden;
+    height: 574px;
+    margin: 0 auto;
+    background: url(../../zlys/my_images/store_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.ad_content {
+    width: 1100px;
+    height: 524px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    background-color: white;
+}
+
+.adct_img {
+    float: left;
+    width: 600px;
+    height: 374px;
+}
+
+.adct_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.adct_font {
+    width: 435px;
+    height: 374px;
+    float: right;
+    background: url(../my_images/store_bg2.jpg) no-repeat right;
+}
+
+.adct_font span {
+    color: #000;
+}
+
+.adct_font span:hover {
+    color: red;
+}
+
+.icon-font {
+    font-family: 'icomoon';
+}
+
+.adct_font p {
+    margin-top: 70px;
+}
+
+.adc_top1 {
+    transition: all .5s;
+    display: none;
+}
+
+.adc_down ul li {
+    float: left;
+    width: 250px;
+    padding: 8px 16px 5px 0;
+    height: 120px;
+    opacity: .7;
+    transition: all .3s;
+}
+
+.adc_down ul li img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+
+
+/* 地址结束 */
+
+
+/* 人气美食开始 */
+
+.hotcate {
+    width: 100%;
+    background-color: #f3f3f3;
+    height: auto;
+}
+
+.hotcate_title {
+    text-align: center;
+    padding: 33px 0 40px 0;
+    margin-bottom: 40px;
+    height: auto;
+    color: #000;
+    background: url(../../zlys/my_images/title.png) no-repeat bottom center;
+}
+
+.hotcate_title h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hotcate_title p {
+    padding: 10px 0;
+}
+
+.catelist {
+    overflow: hidden;
+}
+
+.catelist li {
+    padding: 5px 0;
+    width: 12.5%;
+    float: left;
+}
+
+.catelist li a {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.food-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #000;
+    font-weight: 400;
+    font-family: 'icomoon';
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.catelist p {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    margin-top: 8px;
+}
+
+.food-icon:hover {
+    background-color: #8A0303;
+}
+
+.cateimg {
+    overflow: hidden;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.shutter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.shutter p {
+    margin-top: 78px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.shutter .list {
+    display: block;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid white;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.cateimg ul li:hover .shutter {
+    transform: translateX(0);
+}
+
+.cateimg ul li {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 216px;
+    background-color: pink;
+}
+
+.cateimg ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 人气美食结束 */
+
+
+/* 新闻资讯开始 */
+
+.news {
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+}
+
+.news_title {
+    text-align: center;
+    padding: 33px 0 40px 0;
+    margin-bottom: 40px;
+    height: auto;
+    color: #000;
+    background: url(../../zlys/my_images/title.png) no-repeat bottom center;
+}
+
+.news_title h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.news_title p {
+    padding: 10px 0;
+}
+
+.news {
+    overflow: hidden;
+}
+
+.newstrends {
+    width: 560px;
+    height: auto;
+    float: left;
+}
+
+.newstrends h3 {
+    float: left;
+    font-size: 20px;
+    color: #000;
+}
+
+.more {
+    float: right;
+}
+
+.news_top {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.news_middle {
+    overflow: hidden;
+}
+
+.news_middle a img {
+    width: 275px;
+    height: 200px;
+}
+
+.news_middle a:nth-child(1) {
+    float: right;
+}
+
+.news_middle a:nth-child(2) {
+    float: left;
+}
+
+.news_down li a {
+    color: #666;
+}
+
+.news_down li a {
+    display: block;
+    line-height: 40px;
+    background: url(../my_images/icon_2.jpg) no-repeat left;
+    font-size: 14px;
+    padding-left: 15px;
+    border-bottom: 1px dotted #dcdcdc;
+}
+
+.news_down li a span {
+    float: right;
+    font-size: 12px;
+}
+
+.jointrends {
+    width: 560px;
+    height: auto;
+    float: right;
+}
+
+.jointrends h3 {
+    float: left;
+    font-size: 20px;
+    color: #000;
+}
+
+
+/* 新闻资讯结束 */
+
+
+/* foot模块开始 */
+
+.foot {
+    width: 100%;
+    height: auto;
+    padding-top: 33px;
+    padding-bottom: 25px;
+}
+
+.foot2 {
+    padding-left: 500px;
+    min-height: 120px;
+    padding-top: 25px;
+    font-size: 12px;
+    color: #333;
+    line-height: 30px;
+}
+
+.foot2 p:nth-child(1) span {
+    color: red;
+}
+
+.foot2 p:nth-child(2) span {
+    color: red;
+}
+
+.foot2 p {
+    line-height: 21px;
+}
+
+
+/* foot模块结束 */
+
+
+/* 固定定位模块 */
+
+.fixhead {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    z-index: 9999;
+}
+
+.logo {
+    float: left;
+}
+
+.tel {
+    font-family: 'icomoon';
+    color: white;
+    font-size: 16px;
+    text-align: right;
+}
+
+
+/* 固定导航结束 */
+
+
+/* 下拉菜单开始 */
+
+.menu {
+    width: 844px;
+    height: 52px;
+    float: left;
+}
+
+.menu li a {
+    height: 52px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 52px;
+    width: 94px;
+    font-size: 14px;
+}
+
+.menu2 li a {
+    transition: all .3s;
+}
+
+.menu2 li a:hover {
+    background-color: black;
+}
+
+.menu2 {
+    background-color: rgba(0, 0, 0, .7);
+    height: 0;
+    overflow: hidden;
+}
+
+.menu_head {
+    height: 40px;
+    float: left;
+}

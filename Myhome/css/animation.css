@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 242, 0, .5);
+    transition: all 8.2s;
+    overflow: hidden;
+}
+
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.doorframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+audio {
+    position: absolute;
+    z-index: 5;
+    background-color: pink;
+    right: -255px;
+    bottom: 0;
+    opacity: .1;
+}
+
+.font-circle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 350px;
+    font-size: 200px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 350px;
+    border-radius: 50%;
+    transition: opacity .5s;
+    background: -webkit-linear-gradient(left, rgba(54, 226, 248, 0.5) 138px, rgba(0, 0, 0, 0) 395px);
+    box-shadow: -6px 7px 8px 8px rgba(0, 0, 0, .3);
+}
+
+.love {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-52%);
+    width: 80%;
+    height: 97%;
+    animation: shake_love 2s 11s infinite alternate;
+    /* background-color: pink; */
+}
+
+@keyframes shake_love {
+    from {
+        top: 0;
+    }
+    to {
+        top: 10px;
+    }
+}
+
+.love li {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: -webkit-linear-gradient( left, rgba(54, 226, 248, 0.5) 0px, rgba(0, 0, 0, 0) 74px), -webkit-linear-gradient( top, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 73px)
+}
+
+.love li {
+    overflow: hidden;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.welcome {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+    opacity: 0;
+    animation: shake_welcome 2s 11s infinite alternate;
+}
+
+.welcome span {
+    font-size: 90px;
+    font-weight: 900;
+    color: rgba(244, 115, 120, .3);
+}
+
+.welcome p {
+    font-weight: 700px;
+    font-size: 80px;
+    text-align: center;
+    color: rgba(227, 8, 8, .3);
+}
+
+@keyframes shake_welcome {
+    form {
+        top: 30%;
+    }
+    to {
+        top: 31%;
+    }
+}
+
+.login {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(54, 226, 248);
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 999;
+    animation: pull 3s 8s ease-in both, shake 2s 11s infinite alternate;
+    box-shadow: -6px 5px 13px 2px rgba(0, 0, 0, .3);
+}
+
+.small_circle {
+    position: absolute;
+    left: 11%;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
+    z-index: 0;
+}
+
+.small_circle li {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(54, 226, 248);
+}
+
+@keyframes shake {
+    from {
+        top: 60%;
+    }
+    to {
+        top: 61%
+    }
+}
+
+@keyframes pull {
+    from {
+        top: -40px;
+    }
+    to {
+        top: 60%;
+    }
+}
