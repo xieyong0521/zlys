@@ -108,6 +108,9 @@ nav ul .nav_item li a {
     height: 30px;
     line-height: 30px;
 }
+.nav_item  a:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
 header .focus {
     height: 349px;
 }
