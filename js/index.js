@@ -9,9 +9,26 @@ window.addEventListener('load', function() {
     var ul = focus.querySelector('ul')
     var btn = document.querySelector('.btn')
     var btn2 = document.querySelector('.btn2')
+    var shrink = document.querySelector('.shrink')
+    var message = document.querySelector('.message')
 
-    //下拉菜单制作开始
-    //遍历所有的菜单栏头部
+
+    //点击减号框框缩小
+    shrink.addEventListener('click', function() {
+            if (this.className == 'shrink') {
+                message.style.height = 35 + 'px'
+                this.className = 'kuang'
+
+            } else if (this.className == 'kuang') {
+                message.style.height = 270 + 'px'
+                this.className = 'shrink'
+            }
+            // console.log(this.className);
+
+
+        })
+        //下拉菜单制作开始
+        //遍历所有的菜单栏头部
     menu_heads.forEach(function(value, index) {
             //获取当前头部中li的数量
 

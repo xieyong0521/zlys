@@ -745,3 +745,112 @@
     height: 40px;
     float: left;
 }
+
+
+/* 留言部分开始 */
+
+.message {
+    overflow: hidden;
+    width: 240px;
+    height: 270px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    background-color: #ededed;
+}
+
+.message h3 {
+    border-radius: 10px 10px 0 0;
+    text-align: left;
+    height: 35px;
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: 400;
+    color: white;
+    line-height: 35px;
+    background-color: #00aef3;
+}
+
+.shrink {
+    display: inline-block;
+    float: right;
+    height: 0px;
+    width: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.kuang {
+    display: inline-block;
+    float: right;
+    height: 10px;
+    width: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.m_content {
+    outline: none;
+    width: 212px;
+    height: 79px;
+    margin-top: 20px;
+    margin-left: 12px;
+    border: 1px solid #d5d5d5
+}
+
+.tel2 {
+    height: 30px;
+    width: 214px;
+    margin: 7px auto 0;
+    border: 1px solid #d5d5d5;
+    position: relative;
+    background-color: white;
+}
+
+.tel2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 30px;
+    display: block;
+    background: url(../my_images/r_phone.png) center no-repeat;
+    background-color: #ccc;
+    background-size: cover;
+}
+
+.tel2 input {
+    position: absolute;
+    left: 36px;
+    margin: 0;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    border: none;
+    display: inline-block;
+}
+
+.message button {
+    height: 35px;
+    width: 90px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #00aef3;
+    margin: 8px 12px;
+    border: none;
+}
+
+
+/* 留言部分结束 */
