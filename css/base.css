@@ -55,3 +55,14 @@ body {
 .clearfix {
     *zoom: 1
 }
+
+@font-face {
+    font-family: 'iconfont';
+    src:  url('../font/iconfont.eot?7kkyc2');
+    src:  url('../font/iconfont.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../font/iconfont.ttf?7kkyc2') format('truetype'),
+      url('../font/iconfont.woff?7kkyc2') format('woff'),
+      url('../font/iconfont.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
