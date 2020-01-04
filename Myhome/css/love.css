@@ -251,7 +251,7 @@
 
 .sc1 {
     bottom: 0;
-    left: 20px;
+    left: 0.6%;
     background: -webkit-linear-gradient(left, rgba(237, 28, 36, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move 2.5s 11s infinite alternate;
     opacity: 0;
@@ -271,7 +271,7 @@
 
 .sc2 {
     bottom: 0;
-    left: 120px;
+    left: 9.8%;
     background: -webkit-linear-gradient(left, rgba(255, 255, 0, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move2 2.5s 11s infinite alternate;
     opacity: 0;
@@ -291,7 +291,7 @@
 
 .sc3 {
     bottom: 0;
-    left: 220px;
+    left: 19%;
     background: -webkit-linear-gradient(left, rgba(255, 192, 0, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move3 2.5s 11s infinite alternate;
     opacity: 0;
@@ -311,7 +311,7 @@
 
 .sc4 {
     bottom: 0;
-    left: 320px;
+    left: 28.2%;
     background: -webkit-linear-gradient(left, rgba(128, 128, 128, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move4 2.5s 11s infinite alternate;
     opacity: 0;
@@ -331,7 +331,7 @@
 
 .sc5 {
     bottom: 0;
-    left: 420px;
+    left: 37.4%;
     background: -webkit-linear-gradient(left, rgba(8, 88, 32, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move5 2.5s 11s infinite alternate;
     opacity: 0;
@@ -362,7 +362,7 @@
 
 .sc6 {
     bottom: 0;
-    left: 520px;
+    left: 46.6%;
     background: -webkit-linear-gradient(left, rgba(0, 176, 240, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move6 2.5s 11s infinite alternate;
     opacity: 0;
@@ -371,7 +371,7 @@
 
 .sc7 {
     bottom: 0;
-    left: 620px;
+    left: 55.8%;
     background: -webkit-linear-gradient(left, rgba(240, 0, 189, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move7 2.5s 11s infinite alternate;
     opacity: 0;
@@ -391,7 +391,7 @@
 
 .sc8 {
     bottom: 0;
-    left: 720px;
+    left: 65%;
     background: -webkit-linear-gradient(left, rgba(0, 32, 96, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move8 2.5s 11s infinite alternate;
     opacity: 0;
@@ -422,7 +422,7 @@
 
 .sc9 {
     bottom: 0;
-    left: 820px;
+    left: 74.2%;
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move9 2.5s 11s infinite alternate;
     opacity: 0;
@@ -431,7 +431,7 @@
 
 .sc10 {
     bottom: 0;
-    left: 920px;
+    left: 83.4%;
     background: -webkit-linear-gradient(left, rgba(112, 48, 160, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move10 2.5s 11s infinite alternate;
     opacity: 0;
@@ -451,7 +451,7 @@
 
 .sc11 {
     bottom: 0;
-    left: 1020px;
+    left: 92.6%;
     background: -webkit-linear-gradient(left, rgba(255, 48, 160, 1) 0px, rgba(0, 0, 0, 0) 45px);
     animation: move11 2.5s 11s infinite alternate;
     opacity: 0;
