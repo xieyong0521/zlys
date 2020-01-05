@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cym.css">
-    <!-- <script src="js/cym.js"></script> -->
+    <script src="js/cym.js"></script>
 </head>
 
 <body>
@@ -25,33 +25,33 @@
                     <li>
                         <a href="javascript:;">首页</a>
                     </li>
-                    <li>
+                    <li class="join">
                         <a href="javascript:;">品牌文化</a>
-                        <ul class="sub">
+                        <ul class="nav_item">
                             <li><a href="javascript:;">品牌文化</a></li>
                         </ul>
                     </li>
 
-                    <li>
+                    <li class="join">
                         <a href="javascript:;">新闻资讯</a>
-                        <ul class="sub">
+                        <ul class="nav_item">
                             <li><a href="javascript:;">加盟动态</a></li>
                             <li><a href="javascript:;">新闻动态</a></li>
                             <li><a href="javascript:;">西餐文化</a></li>
                         </ul>
                     </li>
 
-                    <li>
+                    <li class="join">
                         <a href="javascript:;">门店风采</a>
-                        <ul class="sub">
+                        <ul class="nav_item">
                             <li><a href="javascript:;">加盟展示</a></li>
                             <li><a href="javascript:;">直管展示</a></li>
                         </ul>
                     </li>
 
-                    <li>
+                    <li class="m_join">
                         <a href="javascript:;">美味提供</a>
-                        <ul class="sub">
+                        <ul class="nav_item">
                             <li><a href="javascript:;">主食</a></li>
                             <li><a href="javascript:;">披萨</a></li>
                             <li><a href="javascript:;">意面</a></li>
@@ -63,9 +63,9 @@
                         </ul>
                     </li>
 
-                    <li>
+                    <li class="join">
                         <a href="javascript:;">特许加盟</a>
-                        <ul class="sub">
+                        <ul class="nav_item">
                             <li><a href="javascript:;">加盟条件</a></li>
                             <li><a href="javascript:;">加盟流程</a></li>
                             <li><a href="javascript:;">加盟扶持</a></li>
@@ -74,13 +74,13 @@
 
                     </li>
 
-                    <li>
+                    <li class="join">
                         <a href="javascript:;">在线留言</a>
                     </li>
 
-                    <li>
+                    <li class="join">
                         <a href="javascript:;">联系我们</a>
-                        <ul class="sub">
+                        <ul class="nav_item">
                             <li><a href="javascript:;">联系我们</a></li>
                         </ul>
                     </li>
@@ -95,16 +95,15 @@
     </div>
 
     <!-- main主体部分 -->
-    <div class="m_main">
+    <main>
         <!-- 主体头部 -->
-        <div class="m_title">
+        <div class="ny_title">
             <div class="w">
                 <div class="m_lf">
                     <h3>美食提供</h3>
                     <p>DELICIOUS OFFER</p>
                 </div>
                 <div class="tels">
-                    <i class="icon"></i>
                     <h2>客户服务热线</h2>
                     <h4>400-875-3808</h4>
                 </div>
@@ -117,11 +116,11 @@
             <div class="w">
                 <!-- 美食顶部导航 -->
                 <div class="m_food_top">
-                    <ul class="memu">
+                    <ul>
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe60d;</i>
                                 </div>
                                 <p>主食</p>
                             </a>
@@ -129,7 +128,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xec1e;</i>
                                 </div>
                                 <p>披萨</p>
                             </a>
@@ -137,7 +136,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe60e;</i>
                                 </div>
                                 <p>意面</p>
                             </a>
@@ -145,7 +144,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe655;</i>
                                 </div>
                                 <p>小食</p>
                             </a>
@@ -153,7 +152,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe636;</i>
                                 </div>
                                 <p>色拉</p>
                             </a>
@@ -161,7 +160,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe666;</i>
                                 </div>
                                 <p>甜点</p>
                             </a>
@@ -169,7 +168,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe612;</i>
                                 </div>
                                 <p>汤</p>
                             </a>
@@ -177,7 +176,7 @@
                         <li>
                             <a href="javascript:;">
                                 <div>
-                                    <i class="icon"></i>
+                                    <i class="icon">&#xe635;</i>
                                 </div>
                                 <p>酒水</p>
                             </a>
@@ -185,7 +184,8 @@
                     </ul>
                 </div>
                 <!-- 美食部分middle -->
-                <div class="m_food_middle">
+                <!-- 主食 -->
+                <article class="current">
                     <ul>
                         <li>
                             <a href="javascript:;">
@@ -259,9 +259,119 @@
                                 <p>新加坡叻沙</p>
                             </a>
                         </li>
-
                     </ul>
-                </div>
+                </article>
+                <!-- 披萨 -->
+                <article>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="upload/20150716145726736.jpg" alt="">
+                                <p>金枪鱼蛋黄酱披萨</p>
+                            </a>
+                        </li>
+                        <li><a href="javascript:;"><img src="upload/20150716153750407.jpg" /><p>夏威夷披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161201164629904.jpg" /><p>披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161201165323990.jpg" /><p>披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161201165131777.jpg" /><p>玛格丽特披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20160221145802363.jpg" /><p>杏仁水果披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20170329155443703.jpg" /><p>超级至尊海鲜披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20170329155502899.jpg" /><p>烤鸡披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20160825105009226.jpg" /><p>披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161201164110401.jpg" /><p>披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20180127151347843.png" /><p>黑椒牛柳披萨</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20180127151355894.png" /><p>精选肉粒披萨</p></a></li>
+                     </ul>
+                </article>
+                <!-- 意面 -->
+                <article>
+                    <ul>
+                        <li><a href="javascript:;"><img src="upload/20150716141733728.jpg" /><p>金枪鱼番茄意大利面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716141917543.jpg" /><p>海鲜番茄意大利面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716142519177.jpg" /><p>野山菌意面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716142701930.jpg" /><p>咖喱龙利鱼意面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716142916950.jpg" /><p>经典热辣培根意面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716143041906.jpg" /><p>经典番茄意面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716143341267.jpg" /><p>番茄虾仁意面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716144023937.jpg" /><p>麻辣肉酱意面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716144203188.jpg" /><p>新加坡汤呖沙</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716113536318.jpg" /><p>龙利鱼辣味意大利面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716112415645.jpg" /><p>意大利肉酱面</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716112853322.jpg" /><p>火腿松子酱意大利面</p></a></li>  
+                    </ul>
+                </article>
+                <!-- 小食 -->
+                <article>
+                    <ul>
+                        <li><a href="javascript:;"><img src="upload/20150701151112238.jpg" /><p>美式炸薯条</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716105557321.jpg" /><p>日式焗青口贝</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716105210150.jpg" /><p>金枪鱼酿鸡蛋</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716104841387.jpg" /><p>烤薯饼</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716104445526.jpg" /><p>芝士海鲜焗酥壳</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150701154448318.jpg" /><p>炸山芋条</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716104217184.jpg" /><p>意式烤全鱿鱼</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716103927762.jpg" /><p>金枪鱼面包</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716103643958.jpg" /><p>炸鸡米花</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716102345917.jpg" /><p>美式烤鸡翅</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716102110128.jpg" /><p>美式烤玉米</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20150716101247960.jpg" /><p>意式培根火腿烤鸡蛋</p></a></li>  
+                    </ul>
+                </article>
+                <!-- 色拉 -->
+                <article>
+                    <ul>
+                        <li><a href="javascript:;"><img src="upload/20150716093941941.jpg" /><p>中华海草盘</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716094125236.jpg" /><p>中华海草色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716094211133.jpg" /><p>火腿色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716094417661.jpg" /><p>田园色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716094510962.jpg" /><p>烟熏鸭胸色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716094603138.jpg" /><p>水果色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716094638651.jpg" /><p>金枪鱼色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161018155034304.jpg" /><p>凯撒沙拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20160514113156810.jpg" /><p>土豆沙拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20160825105633654.jpeg" /><p>色拉</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20180127151536594.png" /><p>墨西哥脆拌沙拉</p></a></li> 
+                    </ul>
+                </article>
+                <!-- 甜点 -->
+                <article>
+                    <ul>
+                        <li><a href="javascript:;"><img src="upload/20150716150913250.jpg" /><p>缤纷美苺慕斯</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716151031127.jpg" /><p>草莓优酪慕斯</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716151148943.jpg" /><p>卡布基诺</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716151340634.jpg" /><p>柠檬慕斯</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20171226160508983.jpg" /><p>提拉米苏</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161018155204523.jpg" /><p>新加坡豆花</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716151558534.jpg" /><p>杏仁慕斯</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716151730125.jpg" /><p>香草冰激凌</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716151954172.jpg" /><p>什锦水果盘</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161018153851340.jpg" /><p>华夫饼</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20160514141630608.jpg" /><p>黄桃杯</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20161024162129901.jpg" /><p>三球</p></a></li>  
+                    </ul>
+                </article>
+                <!-- 汤 -->
+                <article>
+                    <ul>
+                        <li><a href="javascript:;"><img src="upload/20150716110808631.jpg" /><p>苹果南瓜汤</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20150716110620830.jpg" /><p>意式蘑菇汤</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20170329160026566.jpg" /><p>番茄浓汤</p></a></li>  
+                        <li><a href="javascript:;"><img src="upload/20170329155953173.jpg" /><p>罗宋汤</p></a></li>  
+                    </ul>
+                </article>
+                <!-- 酒水 -->
+                <article>
+                    <ul>
+                        <li><a href="javascript:;"><img src="upload/20161018114331190.jpg" /><p>西拉子干红（荣耀黛安婕）</p></a></li>  
+		                <li><a href="javascript:;"><img src="upload/20161018114554500.jpg" /><p>霞多丽干白（荣耀黛安婕）</p></a></li> 
+                    </ul>
+                </article>
+
+
+
+
+
+
                 <!-- 页面跳转部分bottom -->
                 <div class="pageJump">
                     <div class="fenye">
@@ -278,10 +388,21 @@
             </div>
         </div>
 
-    </div>
+    </main>
     <!-- footer部分 -->
-    <div class="footer"></div>
-
+    <footer>
+        <div class="w">
+            <h3></h3>
+            <div class="foot_2">
+                <p class="slogan"><strong><span class='hotwords'>一家县城都能开的西餐厅</span></strong></p>
+                <p class="contact"><strong>编辑短信<span class='hotwords'>“加盟”</span>发送到：<span
+                            class='hotwords'>xxxxxxxx</span> 获取加盟资料和报价参考，了解加盟费用/餐厅利润/总部扶持内容</strong></p>
+                <p class="rights">CopyRight All Rights Reserved © 2014-2020.</p>
+                <p class="register">皖ICP备15006577号-11 手机网站</p>
+                <p class="support">技术支持：xxxxx</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

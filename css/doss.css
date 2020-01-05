@@ -1,0 +1,15 @@
+.ny_about .current {
+    display: block;
+}
+.ny_about article {
+    display: none;
+}
+.ny_about article .pic {
+    text-align: center;
+}
+.ny_about article p {
+    margin: 24px 0;
+}
+.ny_about .sty_center p {
+    text-align: center;
+}

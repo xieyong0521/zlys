@@ -1,0 +1,254 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11251",
+      "name": "食品酒水-01",
+      "font_class": "shipinjiushui01",
+      "unicode": "f000c",
+      "unicode_decimal": 983052
+    },
+    {
+      "icon_id": "164703",
+      "name": "主食",
+      "font_class": "zhushi",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "164707",
+      "name": "甜点",
+      "font_class": "tiandian",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "383870",
+      "name": "酒水",
+      "font_class": "jiushui",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "394708",
+      "name": "小食",
+      "font_class": "xiaoshi",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "957452",
+      "name": "休闲小食",
+      "font_class": "xiuxianxiaoshi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1009358",
+      "name": "主食厨房",
+      "font_class": "zhushichufang",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "1046661",
+      "name": "汤菜",
+      "font_class": "tangcai",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "2107673",
+      "name": "小食甜点",
+      "font_class": "Group",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "3963360",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "4352283",
+      "name": "电话 (2)",
+      "font_class": "dianhua1",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "5072216",
+      "name": "甜点",
+      "font_class": "cake",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "5166733",
+      "name": "汤",
+      "font_class": "tang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5170191",
+      "name": "汤",
+      "font_class": "tang1",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "5180002",
+      "name": "色拉",
+      "font_class": "sela",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "5213373",
+      "name": "主食",
+      "font_class": "icon-test",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5218219",
+      "name": "披萨pizza",
+      "font_class": "pizza",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "5220905",
+      "name": "意面",
+      "font_class": "tubiao-",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5222595",
+      "name": "甜点",
+      "font_class": "icon-test1",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "5405552",
+      "name": "电话",
+      "font_class": "dianhua2",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "5620704",
+      "name": "酒水",
+      "font_class": "icon-test2",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6013574",
+      "name": "小食品",
+      "font_class": "xiaoshipin",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "6134511",
+      "name": "icon_小食",
+      "font_class": "icon_xiaoshi",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "6974121",
+      "name": "沙拉意面",
+      "font_class": "shalayimian",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "7186564",
+      "name": "披萨",
+      "font_class": "pisa",
+      "unicode": "ec1e",
+      "unicode_decimal": 60446
+    },
+    {
+      "icon_id": "7716569",
+      "name": "汤",
+      "font_class": "tang2",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "7796196",
+      "name": "电 话",
+      "font_class": "dianhua3",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "7825161",
+      "name": "电话",
+      "font_class": "dianhua4",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9168614",
+      "name": "甜点",
+      "font_class": "03",
+      "unicode": "e507",
+      "unicode_decimal": 58631
+    },
+    {
+      "icon_id": "10268966",
+      "name": "主食",
+      "font_class": "zhushi1",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "10819006",
+      "name": "酒水",
+      "font_class": "jiushui1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "11065047",
+      "name": "电话",
+      "font_class": "dianhua5",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "11172832",
+      "name": "电  话",
+      "font_class": "dianhua6",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "11372725",
+      "name": "小食",
+      "font_class": "xiaoshi1",
+      "unicode": "e8be",
+      "unicode_decimal": 59582
+    },
+    {
+      "icon_id": "11537025",
+      "name": "电 话",
+      "font_class": "dianhua7",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    }
+  ]
+}
