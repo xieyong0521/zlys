@@ -170,28 +170,25 @@ nav ul .sub li a {
     height   : 25px;
     font-size: 16px;
 }
-
-.mod_help_item dd {
-    height: 22px;
+/* foot部分 */
+footer {
+    height: 263px;
 }
-
-.mod_help_app dt,
-.mod_help_app p {
-    padding-left: 15px;
+footer .foot_2 {
+    padding: 30px 160px;
 }
-
-.mod_help_app img {
-    margin: 7px 0;
+footer strong {
+    font-size: 14px;
 }
-
-.mod_copyright {
-    text-align: center;
+footer p {
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
 }
-
-.mod_copyright_links {
-    margin: 20px 0 15px 0;
+footer .rights {
+    margin-top: 20px;
+    color: #999;
 }
-
-.mod_copyright_info {
-    line-height: 18px;
+.hotwords {
+    color: #e53333;
 }
