@@ -189,7 +189,7 @@ main .ny_about {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-left: -700px;
+    margin-left: -725px;
 }
 .sub_nav a {
     display: block;
