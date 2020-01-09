@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
     const plus = document.querySelector('.plus');
     const sub = document.querySelector('.sub');
     const amount = document.querySelector('.amount');
-    const price = document.querySelector('.pirce');
+    const price = document.querySelector('.price');
     function checkout(item, nav) {
         for (let i = 0; i < item.length; i++) {
             nav[i].addEventListener('click', () => {
