@@ -1,6 +1,21 @@
 /*公共样式*/
-@charset "utf-8";
-
+/* 引入字体图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 .fl {
     float: left;
 }
@@ -44,6 +59,11 @@
     font-size  : 0;
 }
 
+.main {
+    background-color: #f3f3f3;
+}
+
+
 /* nav部分 */
 nav {
     position        : fixed;
@@ -51,6 +71,7 @@ nav {
     width           : 100%;
     height          : 76px;
     background-color: rgba(0, 0, 0, .6);
+    z-index: 9999;
 }
 
 header nav .w {
@@ -68,7 +89,14 @@ nav .tel {
     text-align : right;
     font-size  : 14px;
 }
-
+nav .tel::before {
+    content: '\e6a1';
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 nav .w .an-nav {
     position: absolute;
     top     : 30px;
@@ -99,76 +127,67 @@ nav ul a {
     font-size  : 14px;
 }
 
-nav ul .sub {
+nav ul .nav_item {
     background-color: rgba(0, 0, 0, .6);
 }
 
-nav ul .sub li a {
-    height     : 30px;
+nav ul .nav_item li a {
+    height: 30px;
     line-height: 30px;
 }
-
-.footer {
-    height          : 386px;
-    background-color: #f5f5f5;
-    padding-top     : 30px;
+.nav_item  a:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+header .focus {
+    height: 349px;
 }
 
-.mod_service {
-    height       : 79px;
-    border-bottom: 1px solid #ccc;
+main .ny_title {
+    overflow: hidden;
+    height: 76px;
+    background: url(../images/ny_title.jpg) no-repeat top;
+    color: #fff;
+}
+main .ny_title .tels {
+    float: right;
+    position: relative;
+    padding: 15px;
+}
+main .ny_title .tels::before {
+    content: '\e731';
+    position: absolute;
+    top: 15px;
+    left: -32px;
+    font-family: "iconfont" !important;
+    font-size: 32px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.mod_service li {
-    float : left;
-    width : 240px;
-    height: 79px;
+main .ny_about {
+    padding: 25px;
+    background-color: #f3f3f3;
+    font-size: 14px;
 }
-
-.mod-service-icon {
-    /*浮动的盒子 可以直接给大小的 不需要转换*/
-    float      : left;
-    width      : 50px;
-    height     : 50px;
-    margin-left: 35px;
-    background : url(../img/icons.png) no-repeat;
+.sub_nav {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -725px;
 }
-
-.mod_service_zheng {
-    background-position: -253px -3px;
+.sub_nav a {
+    display: block;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background-color: #000;
+    color: #fff;
 }
-
-.mod_service_tit {
-    float      : left;
-    margin-left: 5px;
-}
-
-.mod_service_tit h5 {
-    margin: 5px 0;
-}
-
-.mod_service_kuai {
-    background-position: -255px -54px;
-}
-
-.mod_service_bao {
-    background-position: -257px -105px;
-}
-
-.mod_help {
-    height       : 187px;
-    border-bottom: 1px solid #ccc;
-}
-
-.mod_help_item {
-    float  : left;
-    width  : 150px;
-    padding: 20px 0 0 50px;
-}
-
-.mod_help_item dt {
-    height   : 25px;
-    font-size: 16px;
+.sub_nav a.current {
+    background-color: #fff;
+    color: #000;
 }
 /* foot部分 */
 footer {

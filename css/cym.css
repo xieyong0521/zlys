@@ -1,0 +1,174 @@
+.icon {
+    font-family: 'iconfont';
+}
+
+/* banner部分 */
+.banner{
+    height:359px ;
+    width: 100%;
+    background: url(../images/20160130112133492.jpg);
+    /* background-color: rgb(230, 78, 78); */
+}
+
+/* main主体头部 */
+main {
+    width: 100%;
+    height: auto;
+}
+.m_title {
+    width: 100%;
+    height: 87px;
+    color: #fff;
+    background: url(../images/ny_title.jpg) no-repeat center top;
+}
+/* 左侧 */
+.ny_title .m_lf{
+    float: left;
+    margin: 20px 0 0 160px;
+}
+.ny_title h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/* main主体美食部分 */
+.m_food {
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+/* 美食顶部导航top */
+.m_food_top {
+    padding: 25px 0;
+    width: 100%;
+}
+.m_food_top ul{
+    height: 90px;
+    overflow: hidden;
+}
+.m_food_top ul li{
+    width: 12.5%;
+    height: auto;
+    float: left;
+}
+.m_food_top ul li div{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    text-align: center;
+    background: url(../images/food_1.jpg) no-repeat center center;
+    font-size: 30px;
+    color: #fff;
+}
+.m_food_top ul li p {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    padding: 8px 0;
+}
+.m_food_top ul li a:hover div {
+    background: url(../images/food_2.jpg) no-repeat center center;
+}
+/* 美食部分middle */
+article,
+.cate{
+    display: none;
+}
+.current {
+    display: block;
+}
+article ul li {
+    position: relative;
+    width: 275px;
+    height: 330px;
+    float: left;
+    background: #fff;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+article ul li img {
+    width: 100%;
+    /* height: 100%; */
+    height: 280px;
+}
+article ul li p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #dfdfdf;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+article ul li a:hover img {
+    margin-left: 8px;
+    transition: all .3s;
+    transform: scale(1.2);  
+}
+article ul li a:hover p {
+    background-color: #FEC601;
+    /* transform: scale(1.4);   */
+    transition: all .3s;
+    color: #fff;
+}
+/* article ul li a:hover li {
+    border:5px solid yellow;
+} */
+
+/* 页面跳转部分bottom */
+.pageJump {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 39px;
+    padding: 30px 0px;
+}
+.pageJump .fenye {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.pageJump .fenye a {
+    display: inline-block;
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 10px;
+    text-align: center;
+    color: #666;
+}
+.pageJump .fenye a:hover{
+    background-color: #C50012;
+    color: #fff;
+}
+.pageJump .fenye .active{
+    background-color: #C50012;
+    color: #fff;
+}
+
+
+
+
+
+
+
+main .ny_title .tels::before {
+    content: '\e731';
+    position: absolute;
+    top: 15px;
+    left: -32px;
+    font-family: "iconfont" !important;
+    font-size: 32px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
