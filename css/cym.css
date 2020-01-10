@@ -71,7 +71,8 @@ main {
     background: url(../images/food_2.jpg) no-repeat center center;
 }
 /* 美食部分middle */
-article{
+article,
+.cate{
     display: none;
 }
 .current {
@@ -113,7 +114,11 @@ article ul li a:hover p {
     background-color: #FEC601;
     /* transform: scale(1.4);   */
     transition: all .3s;
+    color: #fff;
 }
+/* article ul li a:hover li {
+    border:5px solid yellow;
+} */
 
 /* 页面跳转部分bottom */
 .pageJump {
