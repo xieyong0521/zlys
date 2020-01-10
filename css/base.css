@@ -19,19 +19,22 @@ img {
 }
 /*让button 按钮 变成小手*/
 button {
+    outline: none;
     cursor: pointer;
+    border: none;
+    background-color: #fff;
 }
 /*取消链接的下划线*/
 a {
     color: #666;
     text-decoration: none;
 }
-button,
 input {
     font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
     /*取消轮廓线 蓝色的*/
     outline: none;
-    border: 1px solid #000
+    border: 1px solid #000;
+    background-color: none;
 }
 
 body {
